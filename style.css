@@ -1,0 +1,76 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #fffef5;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #0d9c90;
+}
+
+h2 {
+  margin-top: 2em; 
+  text-align: center;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 12em;
+  border: 1px solid #0d9c90;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  background-color: #0d9c90;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0a7a70;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* CENTER RESULT AND RESTART BUTTON */
+#result {
+  text-align: center;
+  display: block;
+  margin: 80px auto 0 auto;
+}
+
+#restart {
+  text-align: center;
+  display: block;
+  margin: 50px auto 0 auto;
+}
